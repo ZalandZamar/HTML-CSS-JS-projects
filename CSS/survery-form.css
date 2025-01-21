@@ -1,0 +1,79 @@
+body {
+  font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    margin: 0;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+
+.container {
+  background-color: black;
+  color: white;
+  max-width: 600px;
+  min-width: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 10px;
+} 
+
+input {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
+select {
+  width: 93%;
+  height: 42px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+div p {
+  text-align: left;
+  margin-left: 30px
+}
+
+.definetley, .maybe {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.definetley input , .maybe input{
+  width: 15px;
+  margin-left: 25px;
+}
+
+.front, .back {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start
+}
+
+.front input, .back input {
+  width: 15px;
+  margin-left: 25px
+}
+
+textarea {
+  width: 90%;
+  height: 75px;
+}
+
+input[type="submit"] {
+  background-color: green;
+  border: none; 
+  margin: 10px 0;
+  padding: 10px 5px; 
+}
