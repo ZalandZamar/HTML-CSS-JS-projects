@@ -1,0 +1,40 @@
+.container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hours, .minutes, .seconds {
+  font-size: 40px;
+  margin-right: 30px;
+}
+
+.start, .stop, .reset {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.start {
+  background-color: rgb(24, 132, 24);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.stop {
+  background-color: rgb(154, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.reset {
+  background-color: rgb(214, 214, 39);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+}

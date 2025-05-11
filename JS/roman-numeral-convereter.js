@@ -21,7 +21,7 @@ function roman() {
     { value: 9, symbol: "IX" },
     { value: 5, symbol: "V" },
     { value: 4, symbol: "IV" },
-    { value: 1, symbol: "I" },
+    { value: 1, symbol: "I" }
   ];
 
   let num = parseInt(numberInput.value);
