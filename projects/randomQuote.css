@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  margin: 0;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.css-genrate-btn {
+  align-self: center;
+  height: 50px;
+  width: 200px;
+  position: absolute;
+  bottom: 10px;
+  background-color: rgb(15, 185, 15);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+}
+
+.display {
+  height: 170px;
+  padding: 10px 15px 10px 15px;
+  border: 1px solid white;
+  line-height: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
