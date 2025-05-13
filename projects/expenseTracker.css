@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(135deg, #5b548a, #5b548a);
+
+}
+
+.container {
+  width: 90%;
+  max-width: 470px;
+  background: white;
+  color: black;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: left;
+}
+
+.title {
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  padding: 5px 10px 5px;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.Category {
+  width: 95%;
+  pad: 5px 10px 5px;
+  border: none;
+  outline: none;
+  height: 35px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.add-expense {
+  width: 95%;
+  border: none;
+  height: 35px;
+  background-color: rgb(94, 94, 247);
+  color: white;
+  border-radius: 3px;
+}
+
+.all-expenses {
+  background-color: rgb(7, 94, 7);
+  color: white;
+  height: 40px;
+  padding: 5px 10px 5px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}

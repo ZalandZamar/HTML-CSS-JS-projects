@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="expenseTracker.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Expense Tracker</h1>
+    <h2>Description</h2>
+    <input type="text" placeholder="Description"
+      class="js-description">
+    <h2>Amount($):</h2>
+    <input type="number" class="js-amount">
+    <h2>Category</h2>
+    <select name="Category" id="" style="display: block;"
+      class="js-category Category">
+      <option value="Transport">Transport</option>
+      <option value="Gym">Gym</option>
+      <option value="Health">Health</option>
+      <option value="Family">Family</option>
+      <option value="Flexing">Flexing</option>
+      <option value="Vacations">Vacations</option>
+    </select>
+    <button class="js-add-button add-expense">Add Expense</button>
+    <p class="js-total-expense-display"></p>
+    <p>Expense List:</p>
+    <p class="js-display"></p>
+    <p class="js-total-expense-display"></p>
+  </div>
+  
+  <script src="expenseTracker.js"></script>
+</body>
+</html>
