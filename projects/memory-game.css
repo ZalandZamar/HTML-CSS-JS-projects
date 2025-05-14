@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 4100px;
+  row-gap: 10px;
+}
+
+img {
+  width: 90px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px 10px;
+  border: none;
+  border-radius: 3px;
+}
