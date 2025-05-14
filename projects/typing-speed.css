@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(116, 93, 93);
+}
+
+.container {
+  width: 90%;
+  max-width: 470px;
+  background: linear-gradient(135deg, #9b96ba, #43405c);
+  color: #fff;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 80%;
+  max-width: 80%;
+  height: 100px;
+  max-height: 100px;
+  text-align: left;
+  display: block;
+  margin: 10px auto 10px;
+}
+
+select {
+  background-color: black;
+  color: white;
+}
+
+.check-button {
+  width: 70px;
+  background-color: rgb(19, 19, 159);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 5px 8px;
+}
+
+.reset-button {
+  width: 100px;
+  background-color: rgb(160, 24, 24);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 5px 8px;
+}
