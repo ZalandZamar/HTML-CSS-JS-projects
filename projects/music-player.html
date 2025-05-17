@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="music-player.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="music-icon">
+      <img src="images/music.png" alt="music-player">
+    </div>
+
+    <div class="songs-display">
+      <div class="songs" data-index="0">
+        <p>first song</p>
+      </div>
+      <div class="songs" data-index="1">
+        <p>second song</p>
+      </div>
+      <div class="songs" data-index="2">
+        <p>third song</p>
+      </div>
+      <div class="songs" data-index="3">
+        <p>fourth song</p>
+      </div>
+      <div class="songs" data-index="4">
+        <p>fifith song</p>
+      </div>
+    </div>
+
+    <div class="js-buttons">
+      <button class="js-repeat">repeat</button>
+      <button class="js-previous">previous</button>
+      <button class="js-start">start</button>
+      <button class="js-next">next</button>
+      <button class="js-shuffle">shuffle</button>
+    </div>
+  </div>
+  
+  <script src="music-player.js"></script>
+</body>
+</html>
