@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Game App</title>
+  <link rel="stylesheet" href="quiz-game.css">
+</head>
+<body>
+
+  <div class="start-quiz-container js-start-quiz-container">
+    <button class="js-start-quiz-button quiz-button">Start Quiz</button>
+  </div>
+  
+  <div class="container container-hide js-container">
+    <h1>
+      Rules of this quiz
+    </h1>
+    <p>
+      You only have <span>10 seconds</span> for each question.
+    </p>
+    <p>
+      you have to select an option before you can go to the next
+      question.
+    </p>
+    <p>
+      There is no going back after selecting an option.
+    </p>
+    <p>
+      You can't select an option once the timer goes off.
+    </p>
+    <p>
+      You can't exit the quiz while playing.
+    </p>
+
+    <div class="button-row">
+      <button class="js-exit-quiz-button exit-quiz-button">
+      Exit Quiz
+    </button>
+
+    <button class="js-continue-button Continue-button">
+      Continue
+    </button>
+    </div>
+
+  </div>
+
+  </div>
+
+  <div class="js-final-score-container final-score-container
+    final-score-container-hide">
+    <p class="js-score"></p>
+    <button class="js-restart-button">Restart</button>
+  </div>
+
+  <script src="quiz-game.js"></script>
+</body>
+</html>
