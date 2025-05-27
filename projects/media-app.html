@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEdia App</title>
+  <link rel="stylesheet" href="media-app.css">
+</head>
+<body>
+  <div class="js-sign-in-up-container sign-in-up-container">
+    <button class="js-sign-in-button sign-in-button">Sign in</button>
+    <button class="js-sign-up-button sign-up-button">Sign up</button>
+  </div>
+
+  <div class="js-sign-in-container sign-in-container
+    hide-sign-in-container">
+    <form action="#">
+    <input type="email" class="input-email
+      js-sign-in-input-email"
+      placeholder="Email" required>
+    <input type="text" class="input-password
+      js-sign-in-input-password"
+      placeholder="Password">
+    <button 
+      type="submit" class="js-sign-in-sumbit-button
+       sign-in-sumbit-button">
+      Submit
+    </button>
+    </form>
+  </div>
+
+  <div class="js-sign-up-container sign-up-container
+    hide-sign-up-container">
+    <form action="#">
+      <input type="text" class="input-username
+        js-sign-up-input-username"
+        placeholder="Username" required>
+      <input type="email" class="input-email
+        js-sign-up-input-email" 
+        placeholder="Email" required>
+      <input type="text" class="input-password
+        js-sign-up-input-password"
+        placeholder="Password">
+        <button type="submit" class="js-sign-up-sumbit-button
+          sign-up-sumbit-button">Submit</button>
+    </form>
+  </div>
+
+  <div class="js-posts-modal posts-modal hide-posts-modal">
+    <input type="text" class="js-input-post" placeholder="What's in your mind">    
+
+    <div class="js-posts-container posts-container
+      hide-posts-container">
+      <textarea class="js-post-text-area"></textarea>
+      <button class="js-post-button">Post</button>
+    </div>
+  </div>
+
+  <div class="js-display-container display-container
+    hide-display-container">
+    <button class="js-post-again-button">post Again</button>
+    <div class="js-display-post display-post hide-display-post">
+    </div>
+  </div>
+
+  <script src="media-app.js"></script>
+</body>
+</html>
